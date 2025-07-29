@@ -6,7 +6,7 @@ int main()
     float average;
     for (int i = 1; i <= 10; i++)
     {
-         printf("%d.Enter a number:", i);
+         printf("Enter a number:");
         scanf("%d", &num);
          sum += num;
     }
